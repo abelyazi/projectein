@@ -1,3 +1,10 @@
+/* 
+Ammi Haroun
+Belyazid Ali
+de Wouters Louise
+Remise intermédiaire - 28/11/2019
+*/
+
 #include <string>
 #include <fstream>
 #include <iostream>
