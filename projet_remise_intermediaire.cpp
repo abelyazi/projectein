@@ -10,8 +10,6 @@ Remise intermédiaire - 28/11/2019
 #include <iostream>
 #include <vector>
 
-#include<iostream>
-#include<fstream>
 using namespace std;
 
 int main(int argc, char **argv){
@@ -38,16 +36,15 @@ int main(int argc, char **argv){
 		sequence.push_back(convertionTable[real_sequence[i] - 65]);
 	}
 	
-	// impression de la séquence de base et de son nom
+	// impression de la séquence de base et de son nom (pour la vérification)
 	cout << "Séquence de base = ";
 	for (int n : sequence){
 		cout << n;
 	}
 	cout << endl;
-	cout << "Nom de base = " << real_name << endl;
+	cout << "Nom de base = " << real_name << endl << endl;
 
-	// Chercher les informations nécessaires dans l'index
-	
+	// chercher les informations nécessaires dans l'index
 	uint32_t version;
 	uint32_t dbType;
 	uint32_t titleLength;
@@ -98,18 +95,16 @@ int main(int argc, char **argv){
 	}
 	pin.close();
 
-	
-	// recherche dans la database de la séquence
+	// recherche de la séquence dans le sequence file
 	ifstream database;
 	database.open("./uniprot_sprot.fasta.psq");
 	vector<int> foundSequence(sequence.size(),0);
 	int place;
 	for (int p = 0; p<sequenceOffsetTable.size(); p++){
 		database.seekg(sequenceOffsetTable[p]);
-		//if (sequence.size() == sequenceOffsetTable[p+1]-sequenceOffsetTable[p]){
+		//if (sequence.size() = sequenceOffsetTable[p+1]-sequenceOffsetTable[p]){
 			for (int i=0; i<sequence.size(); i++){
 				char x;
-				//database.seekg(sequenceOffsetTable[p]);
 				if (database.get(x)){
 					if (int(x) == sequence[i]){
 						foundSequence[i] = int(x);
@@ -125,14 +120,15 @@ int main(int argc, char **argv){
 			}
 		//}
 	}
+	database.close();
 	
-	// impression de la séquence trouvée dans la database
+	// impression de la séquence trouvée dans le sequence file
 	cout << "Séquence trouvée dans la database = ";
 	for (int n:foundSequence){
 		cout << n;
 	} cout << endl;
 	
-	// chercher les offset dans le header file grâce à l'index
+	// calculer l'offset (début et fin) du header file grâce à l'index
 	int offset1 = headerOffsetTable[place];
 	int offset2 = headerOffsetTable[place+1];
 	
@@ -148,8 +144,8 @@ int main(int argc, char **argv){
     // impression du nom trouvé dans le header
     cout << "Nom trouvé dans le header = ";
     cout.write (buffer,length) << endl;
+    
+    delete[] buffer;
 
-	return 0;
-	
+	return 0;	
 }
-
