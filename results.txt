@@ -1,0 +1,77 @@
+Ammi Haroun - informatique
+Belyazid Ali - informatique
+de Wouters Louise - biomedical
+Projet cpa - remise le 18 décembre 2019
+
+DATABASE INFORMATION :
+Version : 4
+Type : 1
+Title : newE.fasta
+Database Time : Dec 7, 2019  3:05 PM
+Number of sequences : 7266
+Number of residues : 2981753
+Longest db seq : 10746 residues
+
+PROTEIN INFORMATION :
+Query sequence file : proteine.fasta
+Query sequence size : 1210
+Query sequence name (for the verification) : >sp|P00533|EGFR_HUMAN Epidermal growth factor receptor OS=Homo sapiens OX=9606 GN=EGFR PE=1 SV=2
+
+ALGORITHM INFORMATION :
+Smith Waterman
+Score matrix = BLOSSUM
+Extension Penalty = 1
+Open Penalty = 12
+
+DISPLAY OF THE 50 BEST ALIGNEMENTS : 
+
+gnl|BL_ORD_ID|2958 sp|P00533|EGFR_HUMAN Epidermal growth factor ...  2518
+gnl|BL_ORD_ID|2959 sp|Q01279|EGFR_MOUSE Epidermal growth factor ...  2299
+gnl|BL_ORD_ID|5527 sp|Q61527|ERBB4_MOUSE Receptor tyrosine-prote...  1263
+gnl|BL_ORD_ID|5522 sp|O18735|ERBB2_CANLF Receptor tyrosine-prote...  1185
+gnl|BL_ORD_ID|5524 sp|P06494|ERBB2_RAT Receptor tyrosine-protein...  1180
+gnl|BL_ORD_ID|5523 sp|Q60553|ERBB2_MESAU Receptor tyrosine-prote...  1147
+gnl|BL_ORD_ID|2957 sp|P13387|EGFR_CHICK Epidermal growth factor ...  1077
+gnl|BL_ORD_ID|5528 sp|P00534|ERBB_ALV Tyrosine-protein kinase tr...  1075
+gnl|BL_ORD_ID|5525 sp|Q61526|ERBB3_MOUSE Receptor tyrosine-prote...  977
+gnl|BL_ORD_ID|5526 sp|Q62799|ERBB3_RAT Receptor tyrosine-protein...  973
+gnl|BL_ORD_ID|5529 sp|P11273|ERBB_AVIEU Tyrosine-protein kinase...  929
+gnl|BL_ORD_ID|5156 sp|Q03145|EPHA2_MOUSE Ephrin type-A receptor ...  216
+gnl|BL_ORD_ID|5155 sp|P29317|EPHA2_HUMAN Ephrin type-A receptor ...  209
+gnl|BL_ORD_ID|5170 sp|Q8CBF3|EPHB1_MOUSE Ephrin type-B receptor ...  203
+gnl|BL_ORD_ID|5121 sp|Q91736|EPB1B_XENLA Ephrin type-B receptor ...  203
+gnl|BL_ORD_ID|5112 sp|Q91694|EPA4B_XENLA Ephrin type-A receptor ...  201
+gnl|BL_ORD_ID|5154 sp|P21709|EPHA1_HUMAN Ephrin type-A receptor ...  200
+gnl|BL_ORD_ID|5158 sp|P29319|EPHA3_MOUSE Ephrin type-A receptor ...  199
+gnl|BL_ORD_ID|5169 sp|Q07494|EPHB1_CHICK Ephrin type-B receptor ...  199
+gnl|BL_ORD_ID|5157 sp|O13146|EPHA3_DANRE Ephrin type-A receptor ...  198
+gnl|BL_ORD_ID|5159 sp|Q07496|EPHA4_CHICK Ephrin type-A receptor ...  198
+gnl|BL_ORD_ID|5161 sp|P54756|EPHA5_HUMAN Ephrin type-A receptor ...  198
+gnl|BL_ORD_ID|5160 sp|Q03137|EPHA4_MOUSE Ephrin type-A receptor ...  197
+gnl|BL_ORD_ID|5176 sp|P54761|EPHB4_MOUSE Ephrin type-B receptor ...  197
+gnl|BL_ORD_ID|5172 sp|P29323|EPHB2_HUMAN Ephrin type-B receptor ...  195
+gnl|BL_ORD_ID|5165 sp|Q61772|EPHA7_MOUSE Ephrin type-A receptor ...  195
+gnl|BL_ORD_ID|5162 sp|P54757|EPHA5_RAT Ephrin type-A receptor 5 ...  194
+gnl|BL_ORD_ID|5171 sp|P28693|EPHB2_CHICK Ephrin type-B receptor ...  193
+gnl|BL_ORD_ID|5164 sp|O42422|EPHA7_CHICK Ephrin type-A receptor ...  192
+gnl|BL_ORD_ID|5123 sp|O73875|EPB4A_DANRE Ephrin type-B receptor ...  191
+gnl|BL_ORD_ID|5175 sp|Q91735|EPHB3_XENLA Ephrin type-B receptor ...  190
+gnl|BL_ORD_ID|5174 sp|P54753|EPHB3_HUMAN Ephrin type-B receptor ...  189
+gnl|BL_ORD_ID|5173 sp|Q07498|EPHB3_CHICK Ephrin type-B receptor ...  184
+gnl|BL_ORD_ID|5111 sp|O13148|EPA4A_DANRE Ephrin type-A receptor ...  183
+gnl|BL_ORD_ID|5166 sp|P29322|EPHA8_HUMAN Ephrin type-A receptor ...  182
+gnl|BL_ORD_ID|5163 sp|Q62413|EPHA6_MOUSE Ephrin type-A receptor ...  181
+gnl|BL_ORD_ID|5167 sp|P29321|EPHA8_RAT Ephrin type-A receptor 8 ...  173
+gnl|BL_ORD_ID|2973 sp|Q10656|EGL15_CAEEL Myoblast growth factor ...  173
+gnl|BL_ORD_ID|5168 sp|Q8BYG9|EPHAA_MOUSE Ephrin type-A receptor ...  163
+gnl|BL_ORD_ID|5178 sp|P0C0K6|EPHB6_PANTR Ephrin type-B receptor ...  148
+gnl|BL_ORD_ID|5177 sp|O15197|EPHB6_HUMAN Ephrin type-B receptor ...  147
+gnl|BL_ORD_ID|2097 sp|C0LGT6|EFR_ARATH LRR receptor-like serine/...  71
+gnl|BL_ORD_ID|5576 sp|I1Z695|EREC2_ORYSJ LRR receptor-like seri...  67
+gnl|BL_ORD_ID|66 sp|P19525|E2AK2_HUMAN Interferon-induced, do...  63
+gnl|BL_ORD_ID|2976 sp|O76360|EGL4_CAEEL cGMP-dependent protein k...  63
+gnl|BL_ORD_ID|5738 sp|C4YGK0|ERK1_CANAW Extracellular signal-reg...  62
+gnl|BL_ORD_ID|5741 sp|C0LGW6|ERL1_ARATH LRR receptor-like serine...  58
+gnl|BL_ORD_ID|69 sp|Q9Z2B5|E2AK3_MOUSE Eukaryotic translation ...  54
+gnl|BL_ORD_ID|5740 sp|Q9W354|ERK7_DROME Extracellular signal-reg...  54
+gnl|BL_ORD_ID|5775 sp|Q9EQY0|ERN1_MOUSE Serine/threonine-protein...  52
