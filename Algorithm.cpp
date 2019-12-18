@@ -62,6 +62,7 @@ int Algorithm::calculateScore(int * querySequence, int sequenceSize, int sequenc
 	
 	delete[] matrixH;
 	delete[] matrixE;
+	//delete[] databaseSequence;
 	
 	return scoreMax;
 	
@@ -72,8 +73,8 @@ void Algorithm::calculate(Sequence * sequence, Database * database){
 	// prendre les informations utiles de la database et de la query sequence
 	int * querySequence = sequence->getSequence(); 
 	int querySequenceSize = sequence->getSize(); 
-	int * sequenceOffsetTable = database->getSequenceOffsetTable(); 
-	int * headerOffsetTable = database->getHeaderOffsetTable();
+	vector<uint32_t> sequenceOffsetTable = database->getSequenceOffsetTable(); 
+	vector<uint32_t> headerOffsetTable = database->getHeaderOffsetTable();
 	
 	// ouvrir le sequence file
 	ifstream sequenceFile;
@@ -86,7 +87,7 @@ void Algorithm::calculate(Sequence * sequence, Database * database){
 	
 	// parcourir toutes les séquences de la database, calculer leur score et garder les 50 meilleurs scores
 	if (sequenceFile.is_open()){
-		for (unsigned int p = 0; p<database->getNumberOfSequences(); p++){
+		for (unsigned int p = 0; p<sequenceOffsetTable.size()-1; p++){
 			sequenceFile.seekg(sequenceOffsetTable[p]);
 			int databaseSequenceSize = sequenceOffsetTable[p+1]-sequenceOffsetTable[p];
 			int* databaseSequence = new int[databaseSequenceSize];

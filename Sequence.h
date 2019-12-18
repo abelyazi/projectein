@@ -18,6 +18,7 @@ private:
 	
 public:
 
+	//Sequence();
 	Sequence(string s, ofstream * pfichier);
 	string getName() const;
 	int * getSequence() const;

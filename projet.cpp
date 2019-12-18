@@ -22,10 +22,12 @@ void blosumCreation(int m_matrixBlosum[28][28]);
 
 int main(int argc, char **argv)
 {
+	
 	if (argc < 3){
 		cout << "Argument(s) missing" << endl;
 		return 1;
 	}
+	
 	// générer la matrice blossum
 	int m_matrixBlosum[28][28];
 	blosumCreation(m_matrixBlosum);

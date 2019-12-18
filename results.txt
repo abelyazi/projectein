@@ -13,9 +13,9 @@ Number of residues : 2981753
 Longest db seq : 10746 residues
 
 PROTEIN INFORMATION :
-Query sequence file : proteine.fasta
-Query sequence size : 1210
-Query sequence name (for the verification) : >sp|P00533|EGFR_HUMAN Epidermal growth factor receptor OS=Homo sapiens OX=9606 GN=EGFR PE=1 SV=2
+Query sequence file : Q6FL34.fasta
+Query sequence size : 522
+Query sequence name (for the verification) : >sp|Q6FL34|ALG10_CANGA Dol-P-Glc:Glc(2)Man(9)GlcNAc(2)-PP-Dol alpha-1,2-glucosyltransferase OS=Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65) OX=284593 GN=ALG10 PE=3 SV=1
 
 ALGORITHM INFORMATION :
 Smith Waterman
@@ -25,53 +25,53 @@ Open Penalty = 12
 
 DISPLAY OF THE 50 BEST ALIGNEMENTS : 
 
-gnl|BL_ORD_ID|2958 sp|P00533|EGFR_HUMAN Epidermal growth factor ...  2518
-gnl|BL_ORD_ID|2959 sp|Q01279|EGFR_MOUSE Epidermal growth factor ...  2299
-gnl|BL_ORD_ID|5527 sp|Q61527|ERBB4_MOUSE Receptor tyrosine-prote...  1263
-gnl|BL_ORD_ID|5522 sp|O18735|ERBB2_CANLF Receptor tyrosine-prote...  1185
-gnl|BL_ORD_ID|5524 sp|P06494|ERBB2_RAT Receptor tyrosine-protein...  1180
-gnl|BL_ORD_ID|5523 sp|Q60553|ERBB2_MESAU Receptor tyrosine-prote...  1147
-gnl|BL_ORD_ID|2957 sp|P13387|EGFR_CHICK Epidermal growth factor ...  1077
-gnl|BL_ORD_ID|5528 sp|P00534|ERBB_ALV Tyrosine-protein kinase tr...  1075
-gnl|BL_ORD_ID|5525 sp|Q61526|ERBB3_MOUSE Receptor tyrosine-prote...  977
-gnl|BL_ORD_ID|5526 sp|Q62799|ERBB3_RAT Receptor tyrosine-protein...  973
-gnl|BL_ORD_ID|5529 sp|P11273|ERBB_AVIEU Tyrosine-protein kinase...  929
-gnl|BL_ORD_ID|5156 sp|Q03145|EPHA2_MOUSE Ephrin type-A receptor ...  216
-gnl|BL_ORD_ID|5155 sp|P29317|EPHA2_HUMAN Ephrin type-A receptor ...  209
-gnl|BL_ORD_ID|5170 sp|Q8CBF3|EPHB1_MOUSE Ephrin type-B receptor ...  203
-gnl|BL_ORD_ID|5121 sp|Q91736|EPB1B_XENLA Ephrin type-B receptor ...  203
-gnl|BL_ORD_ID|5112 sp|Q91694|EPA4B_XENLA Ephrin type-A receptor ...  201
-gnl|BL_ORD_ID|5154 sp|P21709|EPHA1_HUMAN Ephrin type-A receptor ...  200
-gnl|BL_ORD_ID|5158 sp|P29319|EPHA3_MOUSE Ephrin type-A receptor ...  199
-gnl|BL_ORD_ID|5169 sp|Q07494|EPHB1_CHICK Ephrin type-B receptor ...  199
-gnl|BL_ORD_ID|5157 sp|O13146|EPHA3_DANRE Ephrin type-A receptor ...  198
-gnl|BL_ORD_ID|5159 sp|Q07496|EPHA4_CHICK Ephrin type-A receptor ...  198
-gnl|BL_ORD_ID|5161 sp|P54756|EPHA5_HUMAN Ephrin type-A receptor ...  198
-gnl|BL_ORD_ID|5160 sp|Q03137|EPHA4_MOUSE Ephrin type-A receptor ...  197
-gnl|BL_ORD_ID|5176 sp|P54761|EPHB4_MOUSE Ephrin type-B receptor ...  197
-gnl|BL_ORD_ID|5172 sp|P29323|EPHB2_HUMAN Ephrin type-B receptor ...  195
-gnl|BL_ORD_ID|5165 sp|Q61772|EPHA7_MOUSE Ephrin type-A receptor ...  195
-gnl|BL_ORD_ID|5162 sp|P54757|EPHA5_RAT Ephrin type-A receptor 5 ...  194
-gnl|BL_ORD_ID|5171 sp|P28693|EPHB2_CHICK Ephrin type-B receptor ...  193
-gnl|BL_ORD_ID|5164 sp|O42422|EPHA7_CHICK Ephrin type-A receptor ...  192
-gnl|BL_ORD_ID|5123 sp|O73875|EPB4A_DANRE Ephrin type-B receptor ...  191
-gnl|BL_ORD_ID|5175 sp|Q91735|EPHB3_XENLA Ephrin type-B receptor ...  190
-gnl|BL_ORD_ID|5174 sp|P54753|EPHB3_HUMAN Ephrin type-B receptor ...  189
-gnl|BL_ORD_ID|5173 sp|Q07498|EPHB3_CHICK Ephrin type-B receptor ...  184
-gnl|BL_ORD_ID|5111 sp|O13148|EPA4A_DANRE Ephrin type-A receptor ...  183
-gnl|BL_ORD_ID|5166 sp|P29322|EPHA8_HUMAN Ephrin type-A receptor ...  182
-gnl|BL_ORD_ID|5163 sp|Q62413|EPHA6_MOUSE Ephrin type-A receptor ...  181
-gnl|BL_ORD_ID|5167 sp|P29321|EPHA8_RAT Ephrin type-A receptor 8 ...  173
-gnl|BL_ORD_ID|2973 sp|Q10656|EGL15_CAEEL Myoblast growth factor ...  173
-gnl|BL_ORD_ID|5168 sp|Q8BYG9|EPHAA_MOUSE Ephrin type-A receptor ...  163
-gnl|BL_ORD_ID|5178 sp|P0C0K6|EPHB6_PANTR Ephrin type-B receptor ...  148
-gnl|BL_ORD_ID|5177 sp|O15197|EPHB6_HUMAN Ephrin type-B receptor ...  147
-gnl|BL_ORD_ID|2097 sp|C0LGT6|EFR_ARATH LRR receptor-like serine/...  71
-gnl|BL_ORD_ID|5576 sp|I1Z695|EREC2_ORYSJ LRR receptor-like seri...  67
-gnl|BL_ORD_ID|66 sp|P19525|E2AK2_HUMAN Interferon-induced, do...  63
-gnl|BL_ORD_ID|2976 sp|O76360|EGL4_CAEEL cGMP-dependent protein k...  63
-gnl|BL_ORD_ID|5738 sp|C4YGK0|ERK1_CANAW Extracellular signal-reg...  62
-gnl|BL_ORD_ID|5741 sp|C0LGW6|ERL1_ARATH LRR receptor-like serine...  58
-gnl|BL_ORD_ID|69 sp|Q9Z2B5|E2AK3_MOUSE Eukaryotic translation ...  54
-gnl|BL_ORD_ID|5740 sp|Q9W354|ERK7_DROME Extracellular signal-reg...  54
-gnl|BL_ORD_ID|5775 sp|Q9EQY0|ERN1_MOUSE Serine/threonine-protein...  52
+gnl|BL_ORD_ID|1242 sp|I1K0K6|EFGC2_SOYBN Elongation factor G-2, ...  30
+gnl|BL_ORD_ID|1474 sp|Q2YB00|EFG_NITMU Elongation factor G OS=N...  30
+gnl|BL_ORD_ID|1290 sp|B9JDS6|EFG_AGRRK Elongation factor G OS=Ag...  29
+gnl|BL_ORD_ID|1508 sp|B3PWR8|EFG_RHIE6 Elongation factor G OS=Rh...  29
+gnl|BL_ORD_ID|1509 sp|Q1MIE4|EFG_RHIL3 Elongation factor G OS=Rh...  29
+gnl|BL_ORD_ID|1510 sp|B5ZYT2|EFG_RHILW Elongation factor G OS=Rh...  29
+gnl|BL_ORD_ID|1420 sp|A6T3K7|EFG_JANMA Elongation factor G OS=Ja...  29
+gnl|BL_ORD_ID|1472 sp|Q2GD82|EFG_NEOSM Elongation factor G OS=Ne...  29
+gnl|BL_ORD_ID|1473 sp|Q82T70|EFG_NITEU Elongation factor G OS=N...  29
+gnl|BL_ORD_ID|1608 sp|A7IFX8|EFG_XANP2 Elongation factor G OS=Xa...  29
+gnl|BL_ORD_ID|1280 sp|A1TJ04|EFG_ACIAC Elongation factor G OS=Ac...  29
+gnl|BL_ORD_ID|1287 sp|A1W2Q4|EFG_ACISJ Elongation factor G OS=Ac...  29
+gnl|BL_ORD_ID|1390 sp|Q5FFE7|EFG_EHRRG Elongation factor G OS=Eh...  29
+gnl|BL_ORD_ID|1232 sp|Q88FI4|EFG2_PSEPK Elongation factor G 2 O...  28
+gnl|BL_ORD_ID|1243 sp|Q9SI75|EFGC_ARATH Elongation factor G, chl...  28
+gnl|BL_ORD_ID|1469 sp|B4RQX2|EFG_NEIG2 Elongation factor G OS=Ne...  28
+gnl|BL_ORD_ID|1470 sp|A9M3X0|EFG_NEIM0 Elongation factor G OS=Ne...  28
+gnl|BL_ORD_ID|1471 sp|Q9K1I8|EFG_NEIMB Elongation factor G OS=Ne...  28
+gnl|BL_ORD_ID|1480 sp|B6JET0|EFG_OLICO Elongation factor G OS=O...  28
+gnl|BL_ORD_ID|1546 sp|A6U856|EFG_SINMW Elongation factor G OS=Si...  28
+gnl|BL_ORD_ID|1209 sp|Q12SW2|EFG1_SHEDO Elongation factor G 1 O...  28
+gnl|BL_ORD_ID|1516 sp|Q134S6|EFG_RHOPS Elongation factor G OS=Rh...  28
+gnl|BL_ORD_ID|1600 sp|A1WHC2|EFG_VEREI Elongation factor G OS=Ve...  28
+gnl|BL_ORD_ID|3792 sp|P0AEJ1|EMRB_ECO57 Multidrug export protein...  28
+gnl|BL_ORD_ID|1319 sp|Q492B1|EFG_BLOPB Elongation factor G OS=Bl...  27
+gnl|BL_ORD_ID|1322 sp|Q2YM00|EFG_BRUA2 Elongation factor G OS=Br...  27
+gnl|BL_ORD_ID|1323 sp|A9M5Q3|EFG_BRUC2 Elongation factor G OS=Br...  27
+gnl|BL_ORD_ID|1324 sp|Q8YHP3|EFG_BRUME Elongation factor G OS=B...  27
+gnl|BL_ORD_ID|1325 sp|B0CH35|EFG_BRUSI Elongation factor G OS=Br...  27
+gnl|BL_ORD_ID|1479 sp|A6X0B5|EFG_OCHA4 Elongation factor G OS=O...  27
+gnl|BL_ORD_ID|1517 sp|Q2RQV7|EFG_RHORT Elongation factor G OS=R...  27
+gnl|BL_ORD_ID|656 sp|Q02202|ECM9_YEAST Protein ECM9 OS=Saccharo...  27
+gnl|BL_ORD_ID|1194 sp|Q7WRC7|EFG1_BORBR Elongation factor G 1 O...  27
+gnl|BL_ORD_ID|1195 sp|Q7W2F8|EFG1_BORPA Elongation factor G 1 O...  27
+gnl|BL_ORD_ID|1197 ssp|Q3JV86|EFG1_BURP1 Elongation factor G 1 OS...  27
+gnl|BL_ORD_ID|1198 sp|Q2T0I7|EFG1_BURTA Elongation factor G 1 O...  27
+gnl|BL_ORD_ID|1224 sp|Q47UW3|EFG2_COLP3 Elongation factor G 2 O...  27
+gnl|BL_ORD_ID|1392 sp|Q2N9A7|EFG_ERYLH Elongation factor G OS=Er...  27
+gnl|BL_ORD_ID|1447 sp|B8IS82|EFG_METNO Elongation factor G OS=M...  27
+gnl|BL_ORD_ID|1448 sp|A2SLG0|EFG_METPP Elongation factor G OS=M...  27
+gnl|BL_ORD_ID|1511 sp|P70782|EFG_RHIRD Elongation factor G OS=Rh...  27
+gnl|BL_ORD_ID|1515 sp|Q6N4T4|EFG_RHOPA Elongation factor G OS=Rh...  27
+gnl|BL_ORD_ID|6268 sp|P0DOO0|ETF1_VARV Early transcription facto...  27
+gnl|BL_ORD_ID|7152 sp|Q07436|EXPA_DROME Protein expanded OS=Dros...  27
+gnl|BL_ORD_ID|1207 sp|Q3ILP5|EFG1_PSEHT Elongation factor G 1 OS...  27
+gnl|BL_ORD_ID|1213 sp|P28371|EFG1_SYNY3 Elongation factor G 1 OS...  27
+gnl|BL_ORD_ID|1369 sp|Q11QB0|EFG_CYTH3 Elongation factor G OS=Cy...  27
+gnl|BL_ORD_ID|1492 sp|A4SUV8|EFG_POLAQ Elongation factor G OS=P...  27
+gnl|BL_ORD_ID|1501 sp|Q48D33|EFG_PSE14 Elongation factor G OS=P...  27
+gnl|BL_ORD_ID|1502 sp|Q4K530|EFG_PSEF5 Elongation factor G OS=P...  27

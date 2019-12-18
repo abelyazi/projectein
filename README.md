@@ -16,4 +16,4 @@ où :
     - le nom du fichier texte pour écrire les informations et les résulats est nommé 'results.txt'
     - le nom du fichier de la matrice BLOSUM est nommé 'BLOSUM62'
 
-Temps d'éxécution approximatif en supposant que le swipe prend 1 seconde : t = 70-75 secondes
+Temps d'éxécution approximatif pour la protéine P00533 en supposant que le swipe prend 1 seconde : t = 70-75 secondes

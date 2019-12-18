@@ -10,11 +10,11 @@ using namespace std;
 class Database
 {
 private:
-	
+
 	string name;
 	
-	int * headerOffsetTable;
-	int * sequenceOffsetTable;
+	vector<uint32_t> headerOffsetTable;
+	vector<uint32_t> sequenceOffsetTable;
 	int numberOfSequences;
 	
 	ofstream * pfichier; 
@@ -23,8 +23,8 @@ public:
 
 	Database(string name, ofstream * pfichier); 
 	string getName() const;
-	int * getSequenceOffsetTable() const;
-	int * getHeaderOffsetTable() const;
+	vector<uint32_t> getSequenceOffsetTable() const;
+	vector<uint32_t> getHeaderOffsetTable() const;
 	int getNumberOfSequences() const;
 	
 	void indexInformation();

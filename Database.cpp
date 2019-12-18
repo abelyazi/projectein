@@ -10,11 +10,11 @@ string Database::getName() const{
 	return name;
 }
 
-int * Database::getSequenceOffsetTable() const{
+vector<uint32_t> Database::getSequenceOffsetTable() const{
 	return sequenceOffsetTable;
 }
 
-int * Database::getHeaderOffsetTable() const{
+vector<uint32_t> Database::getHeaderOffsetTable() const{
 	return headerOffsetTable;
 }
 
@@ -23,7 +23,7 @@ int Database::getNumberOfSequences() const{
 }
 
 void Database::indexInformation(){ // récupérer les informations dans l'index
-	
+
 	uint32_t version;
 	uint32_t dbType;
 	uint32_t titleLength;
@@ -63,12 +63,10 @@ void Database::indexInformation(){ // récupérer les informations dans l'index
 		indexFile.read((char*)&maximumSequence, sizeof(uint32_t));
 		maximumSequence =__bswap_32(maximumSequence);
 		//offsets
-		int hOT[numberOfSequences+1];
-		headerOffsetTable = &hOT[0];
-		int sOT[numberOfSequences+1];
-		sequenceOffsetTable = &sOT[0];
-		indexFile.read((char*)&headerOffsetTable[0], sizeof(int)*(numberOfSequences+1));
-		indexFile.read((char*)&sequenceOffsetTable[0], sizeof(int)*(numberOfSequences+1));
+		headerOffsetTable = vector<uint32_t>(numberOfSequences+1);
+		sequenceOffsetTable = vector<uint32_t>(numberOfSequences+1);
+		indexFile.read((char*)&headerOffsetTable[0], sizeof(uint32_t)*(numberOfSequences+1));
+		indexFile.read((char*)&sequenceOffsetTable[0], sizeof(uint32_t)*(numberOfSequences+1));
 		for(unsigned int i = 0; i < numberOfSequences+1; i++){
 			headerOffsetTable[i] = __bswap_32(headerOffsetTable[i]);
 			sequenceOffsetTable[i] = __bswap_32(sequenceOffsetTable[i]);
