@@ -8,11 +8,11 @@ Pour compiler :
     make
 
 Pour exécuter :
-    ./projet
+    ./projet proteine.fasta database.fasta
 
 où :
-    - le nom du fichier où se trouve la protéine est nommé 'protein.fasta'
-    - les noms des trois fichiers de la database sont nommés 'uniprot_sprot.fasta.pin' 'uniprot_sprot.fasta.psq' et 'uniprot_sprot.fasta.phr'
+    - proteine.fasta contient la protéine de base
+    - les noms des trois fichiers de la database sont nommés 'database.fasta.pin' 'database.fasta.psq' et 'database.fasta.phr'
     - le nom du fichier texte pour écrire les informations et les résulats est nommé 'results.txt'
     - le nom du fichier de la matrice BLOSUM est nommé 'BLOSUM62'
 
