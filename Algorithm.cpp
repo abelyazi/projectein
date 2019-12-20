@@ -2,7 +2,7 @@
 #define max(x,y) ( x < y ? y : x )
 
 Algorithm::Algorithm(int R, int Q, int (*mB)[28], ofstream * pfichier){
-	
+
 	penalExtension = R;
 	penalOpen = Q;
 	

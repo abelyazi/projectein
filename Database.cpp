@@ -123,7 +123,8 @@ void Database::printSequenceName (int * places, int * scores){
 				if (read){
 					*pfichier << buffer[j];
 				}
-			} *pfichier << "...  " << int((0.267*scores[i]+3.34)/0.6931471806) << endl;
+			} //*pfichier << "...  " << int((0.267*scores[i]+3.34)/0.6931471806) << endl;
+			 *pfichier << "...  " << int(scores[i]) << endl;
 			delete[] buffer; 
 		}
 	} else {

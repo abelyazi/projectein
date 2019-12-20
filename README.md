@@ -4,13 +4,13 @@ Projet cpa - remise le 18 décembre 2019
 
 Compilation : make
 
-Exécution : ./projet proteine.fasta database.fasta
+Exécution : ./projet proteine.fasta database.fasta R Q BlosumMatrix
 
 où :
 - 'proteine.fasta' contient la protéine de base
 - les trois fichiers de la database sont nommés 'database.fasta.pin' 'database.fasta.psq' et 'database.fasta.phr'
 - le fichier texte pour écrire les informations et les résulats est nommé 'results.txt'
-- le fichier de la matrice BLOSUM est nommé 'BLOSUM62'
+- R, Q, BlosumMatrix sont des paramètres optionnels
 
 Temps d'éxécution approximatif pour la protéine P00533 en supposant que le swipe prend 1 seconde : t = 70-75 secondes
 

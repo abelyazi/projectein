@@ -13,65 +13,65 @@ Number of residues : 2981753
 Longest db seq : 10746 residues
 
 PROTEIN INFORMATION :
-Query sequence file : Q6FL34.fasta
-Query sequence size : 522
-Query sequence name (for the verification) : >sp|Q6FL34|ALG10_CANGA Dol-P-Glc:Glc(2)Man(9)GlcNAc(2)-PP-Dol alpha-1,2-glucosyltransferase OS=Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65) OX=284593 GN=ALG10 PE=3 SV=1
+Query sequence file : Q9Y6V0.fasta
+Query sequence size : 5142
+Query sequence name (for the verification) : >sp|Q9Y6V0|PCLO_HUMAN Protein piccolo OS=Homo sapiens OX=9606 GN=PCLO PE=1 SV=5
 
 ALGORITHM INFORMATION :
 Smith Waterman
 Score matrix = BLOSSUM
 Extension Penalty = 1
-Open Penalty = 12
+Open Penalty = 11
 
 DISPLAY OF THE 50 BEST ALIGNEMENTS : 
 
-gnl|BL_ORD_ID|1242 sp|I1K0K6|EFGC2_SOYBN Elongation factor G-2, ...  30
-gnl|BL_ORD_ID|1474 sp|Q2YB00|EFG_NITMU Elongation factor G OS=N...  30
-gnl|BL_ORD_ID|1290 sp|B9JDS6|EFG_AGRRK Elongation factor G OS=Ag...  29
-gnl|BL_ORD_ID|1508 sp|B3PWR8|EFG_RHIE6 Elongation factor G OS=Rh...  29
-gnl|BL_ORD_ID|1509 sp|Q1MIE4|EFG_RHIL3 Elongation factor G OS=Rh...  29
-gnl|BL_ORD_ID|1510 sp|B5ZYT2|EFG_RHILW Elongation factor G OS=Rh...  29
-gnl|BL_ORD_ID|1420 sp|A6T3K7|EFG_JANMA Elongation factor G OS=Ja...  29
-gnl|BL_ORD_ID|1472 sp|Q2GD82|EFG_NEOSM Elongation factor G OS=Ne...  29
-gnl|BL_ORD_ID|1473 sp|Q82T70|EFG_NITEU Elongation factor G OS=N...  29
-gnl|BL_ORD_ID|1608 sp|A7IFX8|EFG_XANP2 Elongation factor G OS=Xa...  29
-gnl|BL_ORD_ID|1280 sp|A1TJ04|EFG_ACIAC Elongation factor G OS=Ac...  29
-gnl|BL_ORD_ID|1287 sp|A1W2Q4|EFG_ACISJ Elongation factor G OS=Ac...  29
-gnl|BL_ORD_ID|1390 sp|Q5FFE7|EFG_EHRRG Elongation factor G OS=Eh...  29
-gnl|BL_ORD_ID|1232 sp|Q88FI4|EFG2_PSEPK Elongation factor G 2 O...  28
-gnl|BL_ORD_ID|1243 sp|Q9SI75|EFGC_ARATH Elongation factor G, chl...  28
-gnl|BL_ORD_ID|1469 sp|B4RQX2|EFG_NEIG2 Elongation factor G OS=Ne...  28
-gnl|BL_ORD_ID|1470 sp|A9M3X0|EFG_NEIM0 Elongation factor G OS=Ne...  28
-gnl|BL_ORD_ID|1471 sp|Q9K1I8|EFG_NEIMB Elongation factor G OS=Ne...  28
-gnl|BL_ORD_ID|1480 sp|B6JET0|EFG_OLICO Elongation factor G OS=O...  28
-gnl|BL_ORD_ID|1546 sp|A6U856|EFG_SINMW Elongation factor G OS=Si...  28
-gnl|BL_ORD_ID|1209 sp|Q12SW2|EFG1_SHEDO Elongation factor G 1 O...  28
-gnl|BL_ORD_ID|1516 sp|Q134S6|EFG_RHOPS Elongation factor G OS=Rh...  28
-gnl|BL_ORD_ID|1600 sp|A1WHC2|EFG_VEREI Elongation factor G OS=Ve...  28
-gnl|BL_ORD_ID|3792 sp|P0AEJ1|EMRB_ECO57 Multidrug export protein...  28
-gnl|BL_ORD_ID|1319 sp|Q492B1|EFG_BLOPB Elongation factor G OS=Bl...  27
-gnl|BL_ORD_ID|1322 sp|Q2YM00|EFG_BRUA2 Elongation factor G OS=Br...  27
-gnl|BL_ORD_ID|1323 sp|A9M5Q3|EFG_BRUC2 Elongation factor G OS=Br...  27
-gnl|BL_ORD_ID|1324 sp|Q8YHP3|EFG_BRUME Elongation factor G OS=B...  27
-gnl|BL_ORD_ID|1325 sp|B0CH35|EFG_BRUSI Elongation factor G OS=Br...  27
-gnl|BL_ORD_ID|1479 sp|A6X0B5|EFG_OCHA4 Elongation factor G OS=O...  27
-gnl|BL_ORD_ID|1517 sp|Q2RQV7|EFG_RHORT Elongation factor G OS=R...  27
-gnl|BL_ORD_ID|656 sp|Q02202|ECM9_YEAST Protein ECM9 OS=Saccharo...  27
-gnl|BL_ORD_ID|1194 sp|Q7WRC7|EFG1_BORBR Elongation factor G 1 O...  27
-gnl|BL_ORD_ID|1195 sp|Q7W2F8|EFG1_BORPA Elongation factor G 1 O...  27
-gnl|BL_ORD_ID|1197 ssp|Q3JV86|EFG1_BURP1 Elongation factor G 1 OS...  27
-gnl|BL_ORD_ID|1198 sp|Q2T0I7|EFG1_BURTA Elongation factor G 1 O...  27
-gnl|BL_ORD_ID|1224 sp|Q47UW3|EFG2_COLP3 Elongation factor G 2 O...  27
-gnl|BL_ORD_ID|1392 sp|Q2N9A7|EFG_ERYLH Elongation factor G OS=Er...  27
-gnl|BL_ORD_ID|1447 sp|B8IS82|EFG_METNO Elongation factor G OS=M...  27
-gnl|BL_ORD_ID|1448 sp|A2SLG0|EFG_METPP Elongation factor G OS=M...  27
-gnl|BL_ORD_ID|1511 sp|P70782|EFG_RHIRD Elongation factor G OS=Rh...  27
-gnl|BL_ORD_ID|1515 sp|Q6N4T4|EFG_RHOPA Elongation factor G OS=Rh...  27
-gnl|BL_ORD_ID|6268 sp|P0DOO0|ETF1_VARV Early transcription facto...  27
-gnl|BL_ORD_ID|7152 sp|Q07436|EXPA_DROME Protein expanded OS=Dros...  27
-gnl|BL_ORD_ID|1207 sp|Q3ILP5|EFG1_PSEHT Elongation factor G 1 OS...  27
-gnl|BL_ORD_ID|1213 sp|P28371|EFG1_SYNY3 Elongation factor G 1 OS...  27
-gnl|BL_ORD_ID|1369 sp|Q11QB0|EFG_CYTH3 Elongation factor G OS=Cy...  27
-gnl|BL_ORD_ID|1492 sp|A4SUV8|EFG_POLAQ Elongation factor G OS=P...  27
-gnl|BL_ORD_ID|1501 sp|Q48D33|EFG_PSE14 Elongation factor G OS=P...  27
-gnl|BL_ORD_ID|1502 sp|Q4K530|EFG_PSEF5 Elongation factor G OS=P...  27
+gnl|BL_ORD_ID|5280 sp|Q9ZQI0|EPR1_ARATH Proline-rich extensin-li...  423
+gnl|BL_ORD_ID|7190 sp|P24152|EXTN_SORBI Extensin OS=Sorghum bico...  342
+gnl|BL_ORD_ID|7188 sp|Q9M1G9|EXTN2_ARATH Extensin-2 OS=Arabidops...  277
+gnl|BL_ORD_ID|6087 sp|P9WJC5|ESPI_MYCTU ESX-1 secretion-associa...  260
+gnl|BL_ORD_ID|3831 sp|Q03173|ENAH_MOUSE Protein enabled homolog ...  255
+gnl|BL_ORD_ID|3542 sp|G3CHK5|ELF5_PONTR Protein EARLY FLOWERING ...  246
+gnl|BL_ORD_ID|5731 sp|Q5RHP9|ERIC3_HUMAN Glutamate-rich protein ...  237
+gnl|BL_ORD_ID|3836 sp|Q8T4F7|ENA_DROME Protein enabled OS=Drosop...  229
+gnl|BL_ORD_ID|5106 sp|B2RWS6|EP300_MOUSE Histone acetyltransfera...  224
+gnl|BL_ORD_ID|5108 sp|Q8CHI8|EP400_MOUSE E1A-binding protein p40...  224
+gnl|BL_ORD_ID|247 sp|Q7SBU6|EAF1_NEUCR Chromatin modification-...  222
+gnl|BL_ORD_ID|368 sp|Q3KST1|EBNA4_EBVG Epstein-Barr nuclear ant...  221
+gnl|BL_ORD_ID|367 sp|Q1HVG4|EBNA4_EBVA8 Epstein-Barr nuclear an...  211
+gnl|BL_ORD_ID|890 sp|Q15075|EEA1_HUMAN Early endosome antigen 1...  203
+gnl|BL_ORD_ID|3832 sp|O55196|ENAM_MOUSE Enamelin OS=Mus musculus...  200
+gnl|BL_ORD_ID|6089 sp|P9WJC1|ESPK_MYCTU ESX-1 secretion-associa...  199
+gnl|BL_ORD_ID|6160 sp|Q5FWL4|EST2A_XENLA Extended synaptotagmin-...  192
+gnl|BL_ORD_ID|4429 sp|B0WQG0|ENOPH_CULQU Enolase-phosphatase E1 ...  191
+gnl|BL_ORD_ID|6248 sp|Q9Z1X1|ESYT1_RAT Extended synaptotagmin-1 ...  189
+gnl|BL_ORD_ID|7189 sp|P06599|EXTN_DAUCA Extensin OS=Daucus carot...  188
+gnl|BL_ORD_ID|364 sp|Q69022|EBNA2_EBVA8 Epstein-Barr nuclear an...  184
+gnl|BL_ORD_ID|3802 sp|Q6PJG2|EMSA1_HUMAN ELM2 and SANT domain-co...  182
+gnl|BL_ORD_ID|370 sp|Q69140|EBNA6_EBVA8 Epstein-Barr nuclear an...  180
+gnl|BL_ORD_ID|6247 sp|Q3U7R1|ESYT1_MOUSE Extended synaptotagmin-...  179
+gnl|BL_ORD_ID|891 sp|G1UB67|EED1_CANAL Transcriptional regulat...  176
+gnl|BL_ORD_ID|371 sp|Q3KST0|EBNA6_EBVG Epstein-Barr nuclear ant...  174
+gnl|BL_ORD_ID|5263 sp|A6NHQ4|EPOP_HUMAN Elongin BC and Polycomb ...  174
+gnl|BL_ORD_ID|6249 sp|Q3TZZ7|ESYT2_MOUSE Extended synaptotagmin-...  174
+gnl|BL_ORD_ID|369 sp|Q8AZK7|EBNA5_EBVB9 Epstein-Barr nuclear a...  173
+gnl|BL_ORD_ID|366 sp|P12977|EBNA3_EBVB9 Epstein-Barr nuclear an...  172
+gnl|BL_ORD_ID|245 sp|Q5B4Q8|EAF1_EMENI Chromatin modification-...  169
+gnl|BL_ORD_ID|365 sp|Q3KSV2|EBNA2_EBVG Epstein-Barr nuclear ant...  169
+gnl|BL_ORD_ID|6486 sp|Q9D952|EVPL_MOUSE Envoplakin OS=Mus muscul...  169
+gnl|BL_ORD_ID|269 sp|Q5A6Q7|EAF7_CANAL Chromatin modification-...  163
+gnl|BL_ORD_ID|3676 sp|Q9VWE6|ELYS_DROME Protein ELYS homolog OS=...  163
+gnl|BL_ORD_ID|2098 sp|O43281|EFS_HUMAN Embryonal Fyn-associated ...  162
+gnl|BL_ORD_ID|3680 sp|Q8WYP5|ELYS_HUMAN Protein ELYS OS=Homo sap...  162
+gnl|BL_ORD_ID|6199 sp|Q8N693|ESX1_HUMAN Homeobox protein ESX1 OS...  160
+gnl|BL_ORD_ID|2999 sp|B8N7S7|EGLX_ASPFN Probable endo-1,3(4)-be...  159
+gnl|BL_ORD_ID|3540 sp|Q9LV14|ELF5_ARATH Protein EARLY FLOWERING ...  158
+gnl|BL_ORD_ID|3803 sp|Q7Z589|EMSY_HUMAN BRCA2-interacting transc...  158
+gnl|BL_ORD_ID|5255 sp|Q80VP1|EPN1_MOUSE Epsin-1 OS=Mus musculus ...  158
+gnl|BL_ORD_ID|3567 sp|P19419|ELK1_HUMAN ETS domain-containing pr...  157
+gnl|BL_ORD_ID|6484 sp|Q64GL0|EVL_XENLA Ena/VASP-like protein OS=...  155
+gnl|BL_ORD_ID|4376 sp|Q03111|ENL_HUMAN Protein ENL OS=Homo sapie...  153
+gnl|BL_ORD_ID|3767 sp|Q91VF5|EMID1_MOUSE EMI domain-containing p...  152
+gnl|BL_ORD_ID|6028 sp|Q3V1V3|ESF1_MOUSE ESF1 homolog OS=Mus musc...  151
+gnl|BL_ORD_ID|6014 sp|Q03661|ESC1_YEAST Silent chromatin protei...  150
+gnl|BL_ORD_ID|241 sp|F4J7T3|EAF1A_ARATH Chromatin modification-...  149
+gnl|BL_ORD_ID|3175 sp|Q1JU68|EIF3A_RAT Eukaryotic translation in...  146
